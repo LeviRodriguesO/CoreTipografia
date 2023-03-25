@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <title>Cor e Tipografia</title>
+</head>
+<body>
+    <h1>RGB (<span class="vermelho">RED</span>, <span class="verde">GREEN</span>, <span class="azul">BLUE</span>)</h1>
+
+    <p>Os monitores são pretos e iluminados por pequenas luzes coloridas, consite na formação de três pares de números, <span class="vermelho">vermelho</span>, <span class="verde">verde</span>, <span class="azul">azul</span>, formado por três dígitos. Quanto mais alto o número mais clara é a cor.</p>, 
+    
+    <section id="caixa1">
+        <p class="vermelho">Sou o primeiro valor - cor vermelha</p>
+        <p class="verde">Sou o segundo valor - cor verde</p>
+        <p class="azul">Sou o terceiro valor - cor azul</p>
+    </section>
+
+    <h2>RGBA (<span class="vermelho">RED</span>, <span class="verde">GREEN</span>, <span class="azul">BLUE</span>, ALPHA)</h2>
+
+    <p>Eventualmente podemos precisar alterar a opacidade da cor, deixando ela mais transparente ou mais opaca. Para isso usamos um quarto número, que representa o valor alpha da cor. Esse quarto número vai de 0.1 até 0.9.</p>
+
+    <span class="transparente">Transparente</span>
+
+    <h2>Hexadecimais</h2>
+
+    <p>Combinação composta por três conjuntos de pares formados a partir de números e letras de A a F. Quanto mais alto o número mais clara é a cor.</p>
+
+    <section id="caixa2">
+        <p class="vermelho2">Sou o primeiro valor - cor vermelha</p>
+        <p class="verde2">Sou o segundo valor - cor verde</p>
+        <p class="azul2">Sou o terceiro valor - cor azul</p>
+    </section>
+
+    <h1>Tipografia</h1>
+
+    <p>Propriedade oferecida pela CSS para trabalhor com Palavras.</p>
+
+    <h2>Importando fonte pelo HTML</h2>
+
+    <ol>
+        <li>Vá para o google fonte</li>
+        <li>Escolha uma fonte</li>
+        <li>copie o link da fonte para a head</li>
+        <li>Cole o link dentro da head</li>
+    </ol>
+
+    <img src="Captura de tela 2023-03-14 183140.png" alt="HTML fonte">
+
+    <h2>Importando fonte pelo CSS</h2>
+
+    <ol type="1">
+        <li>Vá para o google fonte</li>
+        <li>Escolha uma fonte</li>
+        <li>copie o link da fonte para a head</li>
+        <li>Cole o link dentro do &lt;style&gt; @import</li>
+    </ol>
+
+    <img src="Captura de tela 2023-03-14 183347.png" alt="CSS fonte">
+
+    <h2>Font-Family</h2>
+
+    <p>A propiedade font-family é usada para declarar qual tipo de fonte deve ser usada. O valor da propriedade font-family pode conter vários tipos de nomes de fontes, todos separados por vírgulas</p>
+
+    <h2>Font-Family e Google fontes</h2>
+
+    <pre>
+        <code>
+            &lt;h2&gt;Font-Family e Google Fontes&lt;/h2&gt;
+
+            &lt;h2&gt;{
+            font-family: 'Lato',sans-serif;
+            }
+        </code>
+    </pre>
+
+    <h2>Font-Size</h2>
+    <h2>Apropriedade font-size serve para definir o tamanhos de um texto.</h2>
+    <p class="px">Font-size</p>
+    <p class="rem">Font-size</p>
+    <p class="em">Font-size</p>
+
+    <pre>
+        <code>
+            &lt;p class="px"&gt;Font-size&lt;/p&gt;
+            &lt;p class="rem"&gt;Font-size&lt;/p&gt;
+            &lt;p class="em"&gt;Font-size&lt;/p&gt;
+
+            .px{
+            font-size: 25px;
+            }
+
+            .rem{
+            font-size: 1.5rem;
+            }
+            
+           .em{
+            font-size: 3em;
+           }
+        </code>
+    </pre>
+
+    <h2>Font-Style</h2>
+    <p>A propriedade font-style nos permite definir o estilo da fonte. Ela aceita quatro valores de palavras-chave:</p>
+
+    <ul>
+        <li>Normal: Estilo da fonte normal.</li>
+        <li>Italic: Estilo de fonte italic.</li>
+        <li>Oblique: Estilo de fonte oblique.</li>
+        <li>Inherit: herdar. Ele herda do elemento pai.</li>
+    </ul>
+
+    <p class="normal">Normal</p>
+    <p class="italic">Italic</p>
+    <p class="oblique">Oblique</p>
+    <p class="inherit">inherit</p>
+
+    <h2>Font-weight</h2>
+    <p>Podemos definir um texto em negrito ou definir o peso dele</p>
+
+    <h3>Palavras chaves são:</h3>
+    <ul>
+        <li>font-weight: normal;</li>
+        <li>font-weight: lighter;</li>
+        <li>font-weight: bold;</li>
+    </ul>
+
+    <p>Os números vão de 100 até 900, sempre de 100 em 100. Quanto maior o número, mais forte a fonte fica.</p>
+
+    <h2>Text-Align</h2>
+    <p>Essa propriedade modifica o alinhamento de um texto em relação a uma página. Ela aceita 4 valores.</p>
+    <ul>
+        <li>Center: Texto centralizado</li>
+        <li>Justify: Alinhado com ambas as bordas.</li>
+        <li>Left: Alinha o texto à esquerda.</li>
+        <li>Right: Alinha o texto à direita.</li>
+    </ul>
+
+    <div class="container">
+        <p class="teste1">Center</p>
+        <p class="teste2">Justify</p>
+        <p class="teste3">Left</p>
+        <p class="teste4">Right</p>
+    </div>
+
+    <h2>Text-Transform</h2>
+    <p>Essa propriedade altera o texto. Ela aceita os seguintes valores.</p>
+    <ul>
+        <li>None - Nenhum, não vai ter nenhuma transformação.</li>
+        <li>Capitalize - Capitalizar, ele pega a primeira letra de cada palavra e deixa maiúscula.</li>
+        <li>Uppercase - Maiúscula, ele deixa todo conteúdo em maiúsculo.</li>
+        <li>Lowercase - Minúsculo, ele deixa todo conteúdo em minúsculo.</li>
+        <li>inherit - Herdar, ele herda do elemento pai</li>
+    </ul>
+
+    <span>Text-transform:none;</span>
+    <span>Text-transform:capitalize;</span>
+    <span>Text-transform:uppercase;</span>
+    <span>Text-transform:lowecase;</span>
+    <span>Text-transform:inherit</span>
+
+</body>
+</html>

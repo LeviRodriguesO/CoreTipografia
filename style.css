@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.vermelho{
+    color:rgb(225, 0, 0);
+}
+
+.verde{
+    color:rgb(0, 225, 0);
+}
+
+.azul{
+    color:rgb(0, 0, 225);
+}
+
+.transparente{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.vermelho2{
+    color: #ff0000;
+}
+
+.verde2{
+    color: #00ff00
+}
+
+.azul2{
+    color: #0000ff
+}
+
+.teste{
+    font-family: 'Roboto', sans-serif;
+}
+
+.px{
+    font-size: 25px;
+}
+
+.rem{
+    font-size: 1.5rem;
+}
+
+.em{
+    font-size: 3em;
+}
+
+.normal{
+    font-style: normal;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.oblique{
+    font-style: oblique;
+}
+
+.inherit{
+    font-style: inherit;
+}
+
+.teste1{
+    text-align: center;
+    border: solid red;
+    height: 10rem;
+    width: 10rem;
+}
+
+.teste2{
+    text-align: justify;
+    border: solid red;
+    height: 10rem;
+    width: 10rem;
+}
+
+.teste3{
+    text-align: left;
+    border: solid red;
+    height: 10rem;
+    width: 10rem;
+}
+
+.teste4{
+    text-align: right;
+    border: solid red;
+    height: 10rem;
+    width: 10rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 8px;
+    font-size: 3em;
+    background-color: aquamarine;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif; 
+    margin-top: 40px;
+    padding-bottom: 8px;
+    background-color: aquamarine;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 8px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    font-family: 'Roboto', sans-serif;
+}
+
+pre{
+    font-size: 2em;
+}
+
+ol{
+    font-family: 'Roboto', sans-serif;
+}
